@@ -11,6 +11,9 @@ upon directly. It will become available through an Android Jetpack Library.
 
 In general, the Java API is a thin veneer over the C++ API. For the most part,
 functionality should be added to the C++ side with the Java implementation
+
+BLRAutomationRegression BLRAutomationRegression
+
 calling into it. Where the two APIs diverge is for platform specific
 functionality. For example, the Java API uses Android Fragments, which do not
 apply to the C++ side.
